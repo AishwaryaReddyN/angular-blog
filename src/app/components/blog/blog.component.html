@@ -1,0 +1,50 @@
+<main>
+  <div class="bg-light py-5 text-center">
+    <h1 class="roboto display-3 fw-bold text-center">Blog</h1>
+    <a
+      href="#"
+      [routerLink]="['/blog/createPost']"
+      class="btn btn-dark mt-3 mb-4"
+      >Create Posts</a
+    >
+  </div>
+  <div class="container mt-5">
+    <div>
+      <app-posts class="row" [colClass]="['col-lg-3']"></app-posts>
+    </div>
+  </div>
+
+  <div class="col-12 col-lg-4 mt-5">
+    <div class="bg-light rounded-3 p-3">
+      <h4 class="roboto">Search</h4>
+      <input type="text" class="form-control mb-5" placeholder="Search..." />
+
+      <h4 class="roboto">Categories</h4>
+      <div class="list-group mb-5">
+        <a
+          href="#"
+          class="list-group-item list-group-item-action active"
+          aria-current="true"
+        >
+          The current link item
+        </a>
+        <a href="#" class="list-group-item list-group-item-action"
+          >A second link item</a
+        >
+        <a href="#" class="list-group-item list-group-item-action"
+          >A third link item</a
+        >
+        <a href="#" class="list-group-item list-group-item-action"
+          >A fourth link item</a
+        >
+        <a
+          href="#"
+          class="list-group-item list-group-item-action disabled"
+          tabindex="-1"
+          aria-disabled="true"
+          >A disabled link item</a
+        >
+      </div>
+    </div>
+  </div>
+</main>
