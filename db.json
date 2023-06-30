@@ -20,5 +20,21 @@
       "title": "number 4",
       "content": "fdfdvf"
     }
+  ],
+  "users": [
+    {},
+    
+    {
+      "fullname": "hey",
+      "email": "hey",
+      "password": "hey",
+      "id": 3
+    },
+    {
+      "fullname": "aish",
+      "email": "aish",
+      "password": "aish",
+      "id": 4
+    }
   ]
 }

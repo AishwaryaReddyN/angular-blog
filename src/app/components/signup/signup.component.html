@@ -1,0 +1,51 @@
+<div
+  id="login"
+  class="d-flex align-items-center justify-content-center"
+  style="min-height: 85vh"
+>
+  >
+  <form
+    [formGroup]="signupForm"
+    (ngSubmit)="signup()"
+    method="POST"
+    class="loginBack shadow rounded-3 p-3 w-30"
+    style="background-color: rgb(165, 132, 196)"
+  >
+    <h2 class="text-center my-3">Sign Up</h2>
+    <input
+      formControlName="fullname"
+      type="text"
+      required
+      name="username"
+      placeholder="Username"
+      class="form-control mb-2"
+    />
+    <div class="mb-2">
+      <div class="input-group">
+        <input
+          formControlName="email"
+          type="text"
+          required
+          name="email"
+          class="form-control"
+          placeholder="Email"
+        />
+      </div>
+    </div>
+    <input
+      formControlName="password"
+      type="password"
+      required
+      name="password"
+      placeholder="Password"
+      class="form-control mb-2"
+    />
+    <button type="submit" name="signup" class="btn btn-outline-dark my-3">
+      Sign Up
+    </button>
+    <p class="text-black-50">Already have an account?</p>
+    <a class="btn-outline-dark text-decoration-none" [routerLink]="['/login']"
+      >Login Now</a
+    >
+  </form>
+</div>

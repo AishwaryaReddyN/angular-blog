@@ -1,0 +1,44 @@
+<div
+  id="login"
+  class="d-flex align-items-center justify-content-center"
+  style="min-height: 85vh"
+>
+  <form
+    [formGroup]="loginForm"
+    (ngSubmit)="OnLogin()"
+    method="POST"
+    class="loginBack shadow rounded-3 p-3 w-30 my-auto"
+    style="background-color: rgb(165, 132, 196)"
+  >
+    <h2 class="text-center darkColor my-3">Log In</h2>
+    <input
+      formcontrolName="email"
+      type="email"
+      class="form-control mb-2"
+      name="email"
+      placeholder="Email"
+    />
+    <input
+      formcontrolName="password"
+      type="password"
+      name="password"
+      placeholder="Password"
+      class="form-control mb-2"
+    />
+    <button
+      type="submit"
+      name="login"
+      class="btn btn-outline-dark my-3 d-block"
+    >
+      Login
+    </button>
+    <p class="text-black-50">
+      Don't have an account yet?
+      <a
+        [routerLink]="['/signup']"
+        class="primaryColor text-decoration-none btn-outline-dark text-decoration-none"
+        >Signup Now</a
+      >
+    </p>
+  </form>
+</div>
