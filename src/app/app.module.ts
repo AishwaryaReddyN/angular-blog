@@ -9,7 +9,6 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
 import { BlogComponent } from './components/blog/blog.component';
-import { ContactComponent } from './components/contact/contact.component';
 import { PostsComponent } from './components/posts/posts.component';
 import { PostComponent } from './components/post/post.component';
 import { CreatePostComponent } from './components/create-post/create-post.component';
@@ -24,7 +23,6 @@ import { SignupComponent } from './components/signup/signup.component';
     FooterComponent,
     HomeComponent,
     BlogComponent,
-    ContactComponent,
     PostsComponent,
     PostComponent,
     CreatePostComponent,

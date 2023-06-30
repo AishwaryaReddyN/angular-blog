@@ -23,7 +23,6 @@
   ],
   "users": [
     {},
-    
     {
       "fullname": "hey",
       "email": "hey",
@@ -35,6 +34,12 @@
       "email": "aish",
       "password": "aish",
       "id": 4
+    },
+    {
+      "fullname": "hello",
+      "email": "hello",
+      "password": "hello",
+      "id": 5
     }
   ]
 }

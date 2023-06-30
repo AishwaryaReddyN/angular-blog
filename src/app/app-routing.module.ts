@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
 import { BlogComponent } from './components/blog/blog.component';
-import { ContactComponent } from './components/contact/contact.component';
 import { CreatePostComponent } from './components/create-post/create-post.component';
 import { EditPostComponent } from './components/edit-post/edit-post.component';
 import { LoginComponent } from './components/login/login.component';
@@ -16,10 +15,6 @@ const routes: Routes = [
   {
     path: 'blog',
     component: BlogComponent,
-  },
-  {
-    path: 'contact',
-    component: ContactComponent,
   },
   {
     path: 'blog/createPost',
